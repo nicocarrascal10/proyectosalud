@@ -1,0 +1,218 @@
+body{
+    font-family: 'Bitter', serif;
+    margin: 0;
+    padding: 0;
+    background: #D9D1D1;
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.contenedorgeneral{
+  width: 1000px;
+  background: white;
+  margin: 10px auto;
+}
+
+
+.contact{
+    background-color:#48cfad;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+} 
+
+.icons{
+  width: 100%;
+  height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.social-link{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 15px;
+  
+  
+}
+
+.social-link.twitter{
+  background-image: url('../imagenes/twitter.svg');
+  background-size: 15px 15px;
+}
+
+.social-link.facebook{
+  background-image: url('../imagenes/facebook.svg');
+  background-size: 15px 15px;
+}
+.social-link.github{
+  background-image: url('../imagenes/github.svg');
+  background-size: 15px 15px;
+}
+.social-link.instagram{
+  background-image: url('../imagenes/instagram.svg');
+  background-size: 15px 15px;
+}
+
+.menu-padre{
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.menu-padre ul{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+ justify-content: flex-end;
+ padding-right: 100px;
+
+}
+
+.menu-padre ul li{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.menu-padre ul li a{
+  text-decoration: none;
+  color: #564E4E;
+  border: 1px solid white;
+  padding: 8px;
+ font-size: 12px;
+ font-weight: bold;
+ letter-spacing: 3px;
+}
+
+.menu-padre ul li a:hover{
+ background:#48cfad;
+}
+
+.menu-padre img{
+  width: 300px;
+  height: 100px;
+}
+
+.main-container-principal{
+  width: 100%;
+  height: 500px;
+  background-image: url('../imagenes/hero.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 500px; */
+}
+
+.main-title{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  color: #564E4E;
+  padding-top: 40px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+
+}
+
+.main-title h1{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 20px;
+  height: 230px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero .main-descripcion{
+  text-align: justify;
+  padding-left: 20px;
+ padding-right: 50px;
+}
+.hero .main-descripcion h2{
+  color:#48cfad ;
+}
+
+.form{
+  display: inline;
+  
+}
+
+.form input{
+  display: flex;
+  padding: 10px 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: #48cfad;
+  padding: 10px 88px;
+  text-align: center;
+  font-size: 13px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+button:hover{
+  background-color: #095B47;
+}
+/* 
+.menu-padre{
+  width: 100%;
+  height: 125px;
+  display: flex;
+}
+
+.main-container-principal{
+  width: 100%;
+  height: 400px;
+  background-image: url('../imagenes/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+
+.main-container{
+ 
+}
+   
+.menu-padre .menu-logo img{
+  width: 100%;
+  height: auto;
+} */
+
+
+/*
+.social-link.twitter { #eff2f0
+    background-image: url('../imagenes/twitter.svg');
+  }
+  .social-link.facebook {
+    background-image: url('../imagenes/facebook.svg');
+  }
+  .social-link.github {
+    background-image: url('../imagenes/github.svg');
+  }
+ 
+  .social-link.instagram {
+    background-image: url('../imagenes/instagram.svg');
+  }*/
+
+  
